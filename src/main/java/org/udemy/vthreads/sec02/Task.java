@@ -16,7 +16,7 @@ public class Task {
         try{
             method1(i);
         }catch(Exception e){
-            log.error("Error for i {}, with message {}",i,e.getMessage());
+            log.error("Error for i {}, with message {}",i,e);
         }
         log.info("Ending task {}",i);
     }
